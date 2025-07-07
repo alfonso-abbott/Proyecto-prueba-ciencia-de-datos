@@ -1,32 +1,12 @@
-# ======================================
-# ⛔ ENTORNOS VIRTUALES
-# ======================================
-.venv/
+# Datos y modelos
+/data/raw/*
+!/data/raw/README.md
+/data/processed/*
+/models/*
+/outputs/*
+*.pkl
+*.h5
 
-
-
-# ======================================
-# 🧹 ARCHIVOS TEMPORALES DEL SISTEMA
-# ======================================
-*.log
-*.tmp
-*.DS_Store
-Thumbs.db
-
-# ======================================
-# 📄 ARCHIVOS WORD Y BACKUPS TEMPORALES
-# ======================================
-*.docx
-~$*.docx
-
-# ======================================
-# 🐍 ARCHIVOS TEMPORALES DE PYTHON
-# ======================================
-__pycache__/
-*.py[cod]
-
-# ======================================
-# 🛠️ CONFIGURACIÓN DE EDITORES (VSCode / JetBrains)
-# ======================================
-.vscode/
-.idea/
+# Config y entornos
+.env
+*.sqlite3
